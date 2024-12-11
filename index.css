@@ -1,0 +1,54 @@
+.header {
+  background-color: yellow;
+  height: 100vh;
+}
+
+/* larger phones */
+
+@media (min-width: 375px) {
+  .header {
+    background-color: red;
+  }
+}
+
+/* tablets */
+
+@media (min-width: 768px) {
+  .header {
+    background-color: blue;
+  }
+}
+
+/* small desktop */
+
+@media (min-width: 1440px) {
+  .header {
+    background-color: green;
+  }
+}
+
+/* large desktop */
+
+@media (min-width: 1920px) {
+  .header {
+    background-color: orange;
+  }
+}
+
+/* Landscape 
+
+@media screen and (orientation: landscape) {
+  .header {
+    background-color: rebeccapurple;
+  }
+}
+
+ Portrait 
+
+ @media screen and (orientation: portrait) {
+  .header {
+    background-color: green;
+    color: white;
+    font-size: 60px;
+  }
+} */
